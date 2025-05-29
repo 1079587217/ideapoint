@@ -1,6 +1,7 @@
 <div align="left">
   <li><a href="#第一次作业-----sougou">第一次作业-----sougou</a></li>
   <li><a href="#第二次作业-----dashuju">第二次作业-----dashuju</a></li>
+  <li><a href="#第三次作业-----xianyu">第三次作业-----xianyu</a></li>
 </div>
 
 ### 第一次作业-----sougou
@@ -25,3 +26,7 @@
 
 
 ![截图](./dashuju/2.png)
+
+### 第三次作业-----xianyu
+偶遇知名小网站，拼尽全力瞬间被秒
+![截图](./dashuju/1.jpg)
