@@ -22,8 +22,8 @@
 ### 第二次作业-----dashuju
 断断续续学了点python，虽然很困难但还是出来了。浏览网页时发现数据有乱码，问了ai，说是要逆向什么的，把环境补了补，然后就可以了。
 <br>
-<img src="./dashuju/1.png" width="500px" />
-<img src="./dashuju/2.png" width="500px" />
+![截图](./dashuju/1.png)
+![截图](./dashuju/2.png)
 
 ### 第三次作业-----xianyu
 偶遇知名小网站，拼尽全力瞬间被秒
@@ -32,7 +32,7 @@
 ### 第四次作业-----yunpian
 抄的
 <br>
-<img src="./yunpian/1.png" width="500px" />
-<img src="./yunpian/2.png" width="500px" />
+![截图](./yunpian/1.png)
+![截图](./yunpian/2.png)
 
 
