@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 from lxml.etree import HTML
@@ -28,8 +29,9 @@ class Spider():
                 img_url=src.get('data-original')
                 img_name=img_url[img_url.rfind('/')+1:]
                 img_data=requests.get(img_url,headers=self.header).content
-                with open('C:\ProgramData\SogouInput\Components\Picface\Collections\{}'.format(img_name),'wb') as f:
-                    f.write(img_data)
+                if not os.path.exists('C:\ProgramData\SogouInput\Components\Picface\Collections\{}'.format(img_name)):
+                    with open('C:\ProgramData\SogouInput\Components\Picface\Collections\{}'.format(img_name),'wb') as f:
+                        f.write(img_data)
                 img_names.append({"picKeyWord":"\u037c\u01ac\u046d\u01e9","picName":img_name,"picType":2})
         with open("C:\ProgramData\SogouInput\Components\Picface\Json\SGUserCollection.json", "w") as f:
             json.dump(img_names,f)
@@ -37,4 +39,4 @@ class Spider():
 
 
 if __name__ == '__main__':
-    Spider(1).run()
+    Spider(3).run()
